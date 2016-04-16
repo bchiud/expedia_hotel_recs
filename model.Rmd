@@ -1,0 +1,23 @@
+---
+title: "Expedia Hotel Recommendations"
+author: "Brady Chiu"
+date: April 15, 2016
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    number_sections: true
+---
+
+```{r}
+setwd("/Users/bradychiu/Dropbox (Uber Technologies)/Kaggle/expedia_hotel_recs")
+
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(tidyr)
+
+sessionInfo()
+```
